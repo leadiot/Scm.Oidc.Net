@@ -32,7 +32,7 @@ OIDC的特点：
 #### 软件架构
 此项目是OIDC（OpenID Connect）官网的.Net使用案例，包含服务端和客户端的示例代码，用于向使用者演示如何快速调用OIDC的服务，并为终端用户提供一个简单易用的用户登录功能。
 
-网站首页：[点击查看](http://www.oidc.org.cn)
+网站首页：[http://www.oidc.org.cn](http://www.oidc.org.cn)
 
 服务端效果：  
 请移步这里查看演示：[演示链接](http://demo.oidc.org.cn)
