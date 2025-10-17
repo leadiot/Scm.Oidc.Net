@@ -8,5 +8,4 @@ namespace Com.Scm.Oidc.Wpf
     public partial class App : Application
     {
     }
-
 }

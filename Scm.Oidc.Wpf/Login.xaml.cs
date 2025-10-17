@@ -1,6 +1,7 @@
 ﻿using Com.Scm.Oidc;
 using Com.Scm.Oidc.Response;
 using Com.Scm.Oidc.Wpf;
+using Com.Scm.Utils;
 using System.Diagnostics;
 using System.Windows;
 
@@ -24,6 +25,8 @@ namespace Com.Scm
         public async void Init()
         {
             TbYear.Text = DateTime.Now.Year.ToString();
+
+            LogUtils.Setup();
 
             _Config = new OidcConfig();
             // 使用测试应用

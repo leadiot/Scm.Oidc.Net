@@ -38,7 +38,7 @@
         /// <returns></returns>
         public string GetIconUrl()
         {
-            return $"{OidcClient.DATA_URL}/logo/{Icon}";
+            return $"{OidcClient.DATA_URL}/logo/osp/{Icon}";
         }
 
         /// <summary>
