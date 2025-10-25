@@ -60,7 +60,7 @@ namespace Com.Scm.Oidc
         /// <summary>
         /// 类库版本
         /// </summary>
-        public const string Ver = "1.1.0";
+        public const string Ver = "1.1.2";
 
         /// <summary>
         /// OIDC配置
