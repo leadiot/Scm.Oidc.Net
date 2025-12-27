@@ -152,7 +152,7 @@ namespace Com.Scm.Oidc
                 {PARAM_KEY_STATE, state},
             };
 
-            return HttpUtils.BuildUrl(val, url);
+            return HttpUtils.BuildQuery(val, url);
         }
         #endregion
 
@@ -180,7 +180,7 @@ namespace Com.Scm.Oidc
                 [PARAM_KEY_CODE_CHALLENGE_METHOD] = _Object.code_challenge_method
             };
 
-            return HttpUtils.BuildUrl(val, url);
+            return HttpUtils.BuildQuery(val, url);
         }
 
         /// <summary>
@@ -344,7 +344,7 @@ namespace Com.Scm.Oidc
                 { PARAM_KEY_SCOPE, scope}
             };
 
-            return HttpUtils.BuildUrl(val, url);
+            return HttpUtils.BuildQuery(val, url);
         }
 
         /// <summary>
@@ -416,7 +416,7 @@ namespace Com.Scm.Oidc
                 ["request_id"] = requestId
             };
 
-            return await HttpUtils.GetObjectAsync<SendSmsResponse>(HttpUtils.BuildUrl(val, url));
+            return await HttpUtils.GetObjectAsync<SendSmsResponse>(HttpUtils.BuildQuery(val, url));
         }
 
         /// <summary>

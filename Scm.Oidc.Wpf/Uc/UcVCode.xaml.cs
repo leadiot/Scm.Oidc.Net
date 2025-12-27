@@ -164,7 +164,7 @@ namespace Com.Scm.Uc
                 return;
             }
 
-            if (!TextUtils.IsMail(email))
+            if (!TextUtils.IsEmail(email))
             {
                 ShowNotice("无效的电子邮件格式！");
                 return;
