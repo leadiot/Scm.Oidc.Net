@@ -35,7 +35,7 @@ namespace Com.Scm.Oidc
 
         public const string PARAM_KEY_NONCE = "nonce";
 
-#if DEBUG
+#if DEBUG0
         /// <summary>
         /// 服务端路径
         /// </summary>
@@ -60,7 +60,7 @@ namespace Com.Scm.Oidc
         /// <summary>
         /// 类库版本
         /// </summary>
-        public const string Ver = "1.2.3";
+        public const string Ver = "1.2.4";
 
         /// <summary>
         /// OIDC配置
