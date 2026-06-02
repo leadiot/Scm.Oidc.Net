@@ -120,9 +120,9 @@ var refreshResponse = await client.RefreshTokenAsync(accessToken, refreshToken);
 ```
 
 #### 服务端效果
-请移步这里查看演示：[演示链接](http://demo.oidc.org.cn)
+请移步这里查看演示：[演示链接](http://www.oidc.org.cn)
 
-客户端效果：
+#### 客户端效果：
 ![验证登录界面](screenshots/vcode.png)
 ![授权登录界面](screenshots/oauth.png)
 ![授权成功界面](screenshots/success.png)
