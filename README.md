@@ -1,7 +1,7 @@
-# Scm.Oidc
+# OIDC 联合登录 SDK
 
 #### 介绍
-OIDC(OpenID Connect)：简单、易用的多平台联合登录系统。
+OIDC(OpenID Connect)：轻量、易用的多平台联合登录系统。
 
 ![验证登录界面](screenshots/home.png)
 

@@ -1,7 +1,7 @@
-# Scm.Oidc
+# OIDC SDK
 
 #### Description
-A simple and easy-to-use multi-platform federated login system based on OpenID Connect (OIDC).
+A lightweight and easy-to-use multi-platform federated login system based on OpenID Connect (OIDC).
 
 ![Login Interface](screenshots/home.png)
 
