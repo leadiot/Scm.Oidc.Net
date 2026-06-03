@@ -6,21 +6,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Supported Platforms](#supported-platforms)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [API Reference](#api-reference)
-- [Configuration](#configuration)
-- [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## ✨ Features
 
 | Feature | Description |
@@ -50,6 +35,14 @@
 - Zoho · Box · Todoist · Tower · Evernote · Coding · Teambition
 
 > More platforms coming soon...
+
+---
+
+## 🖼️ Screenshots
+
+| Verification Login | OAuth Login | Success |
+|-------------------|-------------|---------|
+| ![Verification](screenshots/vcode.png) | ![OAuth](screenshots/oauth.png) | ![Success](screenshots/success.png) |
 
 ---
 
@@ -258,14 +251,6 @@ var verifyResponse = await client.VerifySmsAAsync(
     "123456"
 );
 ```
-
----
-
-## 🖼️ Screenshots
-
-| Verification Login | OAuth Login | Success |
-|-------------------|-------------|---------|
-| ![Verification](screenshots/vcode.png) | ![OAuth](screenshots/oauth.png) | ![Success](screenshots/success.png) |
 
 ---
 
